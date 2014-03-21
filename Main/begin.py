@@ -4,7 +4,7 @@ __author__ = 'better'
 import Orange
 # 导入测试数据voting.tab
 # data = orange.ExampleTable("voting")
-filepath = "C:\\Users\\better\\Downloads\\t_alibaba_data.csv"
+filepath = "D:\\t_alibaba_data.csv"
 data = Orange.data.Table(filepath)
 
 # 输出
