@@ -14,20 +14,23 @@ filepath = "C:\\Users\\better\\PycharmProjects\\BuyingBehaviourPredict\\data\\t_
 #all_data = len(data)
 #print all_data
 
+
+
+
 # 构造用户矩阵，用户数884，品牌数9531
 # 用户矩阵应为9537×884，为了编程方便，先构造884×9537矩阵
 userNum = 884
 brandNum = 9531
 
 userMatrix = zeros((userNum,brandNum))
-print userMatrix
+#print userMatrix
 userMatrix = matrix('1,2,3;4,5,6')
 # userMatrix = zeros((2,3))
-userMatrix[0,0] = 123
-userMatrix[1,2] = 456
 
-U, s, V = svd(userMatrix, full_matrices=True)
-print U
-print s
-print V
+# U, s, V = svd(userMatrix, full_matrices=True)
+# print U
+# print s
+# print V
+
+
 
